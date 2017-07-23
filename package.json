@@ -1,0 +1,35 @@
+{
+  "name": "agnostic-mocking",
+  "version": "1.0.0",
+  "description": "Typescript module for mock creation and management",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "karma start --single-run",
+    "watch": "karma start --auto-watch",
+    "postinstall": "typings install"
+  },
+  "author": "R.Rijnberk",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/core-js": "0.9.35",
+    "@types/jasmine": "^2.5.53",
+    "assert": "^1.4.1",
+    "buffer": "^5.0.6",
+    "es6-promise": "3.2.1",
+    "es6-shim": "0.35.1",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "~1.7.0",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-typescript": "^3.0.4",
+    "punycode": "^2.1.0",
+    "systemjs": "^0.19.37",
+    "typescript": "^2.4.1",
+    "typings": "^2.1.1"
+  }
+}
